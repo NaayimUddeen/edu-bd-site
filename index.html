@@ -15,51 +15,44 @@
 <body>
   <header class="container">
     <!-- nav bar start  -->
-    <nav class="navbar navbar-expand-lg bg-white ">
+    <nav class="navbar navbar-expand-lg bg-white">
       <div class="container-fluid">
         <h3>Edu BD</h3>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- togoler start -->
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" 
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <!-- togoler end -->
-        <div class="flex-md-row-reverse collapse navbar-collapse" id="navbarTogglerDemo02">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Deals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Success</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
-              </li>
-            </ul>
-          </div>
+        <!-- style added col-md-6 offset-md-3 -->
+        <div class="collapse navbar-collapse col-md-6 offset-md-3" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Success</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Register</a>
+            </li>
+          </ul>
           <button type="button" class="btn btn-outline-primary d-none d-sm-block">Regitration</button>
         </div>
       </div>
     </nav>
     <!-- nav bar End  -->
 
-    <!-- carousel strat  -->
+    <!-- carousel Interval custom added strat  -->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <!-- carousel indicator  -->
+      <!-- carousel indicator add-->
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -108,48 +101,136 @@
     <!-- carousel end  -->
   </header>
 
+  <main>
+    <!-- Course Details section start -->
+    <section class="container">
+      <div>
+        <div class="container py-5">
+          <h1 class="text-center">Discover Our Popular Courses</h1>
+          <p class="text-center">Our course categories are arranged according to your needs and style</p>
+        </div>
+        <!-- added row row-cols-2 for column-->
+        <div class="container row row-cols-1 row-cols-lg-2">
+          <!-- course - 1  -->
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/course/course-1.jpg" class="img-fluid rounded" alt="course-1">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text" style="0;">HTML is the language for describing the structure of
+                    Web pages.
+                  <p class="card-text fs-4"><small class="text-primary">Price: 199$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- course - 2  -->
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/course/course-2.png" class="img-fluid rounded" alt="course-2">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text" style="0;">Cascading Style Sheets (CSS) is a stylesheet
+                    language used to describe the
+                    presentation of a document written in HTML or XML . </p>
+                  <p class="card-text fs-4"><small class="text-primary">Price: 199$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- course - 3  -->
 
-<main>
-<nav class="navbar navbar-expand-lg bg-light">
-  <h3>Edu BD</h3>
-  <div class="container-fluid">
-    <!-- <a class="navbar-brand" href="#">Edu BD</a> -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Deals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Success</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-        </li>
-      </ul>
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/course/course-3.png" class="img-fluid rounded-start" alt="course-3">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">JAVA</h5>
+                  <p class="card-text" style="0;">JavaScript is a text-based programming language used
+                    both on the client-side
+                    and server-side that allows you to make web pages interactive.</p>
+                  <p class="card-text fs-4"><small class="text-primary">Price: 299$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- course - 4  -->
+
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/course/course-4.png" class="img-fluid rounded-start" alt="course-4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">bootstrap</h5>
+                  <p class="card-text" style="0;">Bootstrap is a free front-end framework for faster
+                    and easier web development.</p>
+                  <p class="card-text fs-4"><small class="text-primary">Price: 150$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- course - 5  -->
+
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/course/course-5.jpg" class="img-fluid rounded-start" alt="course-6">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">TailWind</h5>
+                  <p class="card-text" style="0;">Tailwind CSS is basically a utility-first CSS
+                    framework for rapidly building
+                    custom user interfaces.</p>
+                  <p class="card-text fs-4"><small class="text-primary">Price: 199$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- course - 6  -->
+
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img style="width: 200px; height: 200px;" src="./images/course/course-6.webp"
+                  class="img-fluid rounded-start" alt="course-6">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">C#</h5>
+                  <p class="card-text" style="0;">C# is often used to develop professional, dynamic
+                    websites on the .</p>
+                  <p class="card-text  fs-4"><small class="text-primary">Price: 199$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center">
+      <button class="btn btn-primary" type="submit">See More Courses</button>
     </div>
-  </div>
-  <button type="button" class="btn btn-outline-primary d-none d-sm-block">Regitration</button>
+    <!-- Course Details section end -->
 
-</nav>
-</main>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 </body>
+<footer>
+
+</footer>
 
 </html>
