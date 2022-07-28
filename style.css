@@ -28,3 +28,38 @@
     visibility: visible;
   }
   
+/*--------
+ - Footer -
+ --------*/
+ .footer1{
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+ }
+ .goal{
+    font-size: 40px;
+    padding-top: 30px;
+ }
+ .footer-item{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+ }
+ hr{
+    margin-left: 200px;
+    margin-right: 200px;
+ }
+ .social-midea a{
+    font-size: 50px;
+    padding: 30px;
+    color: #dcdde1;
+    margin-bottom: 30px;
+ }
+ .social-midea:hover a{
+    cursor: grab;
+    color: rgb(23, 135, 210);
+ }
